@@ -1,7 +1,8 @@
 name: CI
 
-on: push
-
+on: 
+  workflow_disptch:
+  
 env:
   ANDROID_NDK_VERSION: r25b
   NODE_TARGETS_DEFAULT: '16.0.0 18.0.0 20.0.0 22.0.0'
